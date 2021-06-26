@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/searchDevice"
+        android:title="@string/search_devices"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_baseline_bluetooth">
+    </item>
+    <item android:id="@+id/Connected_devices"
+        android:icon="@drawable/ic_baseline_person_add"
+        app:showAsAction="always"
+        android:title="@string/add_people">
+
+    </item>
+
+</menu>

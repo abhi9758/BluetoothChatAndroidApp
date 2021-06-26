@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FAF7DF"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".ActiveDeviceActivity">
+
+    <ProgressBar
+        android:id="@+id/prog_bar"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_gravity="center"
+        android:visibility="gone">
+
+    </ProgressBar>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:background="#FF9800"
+        android:text="@string/paired_devices"
+        android:textColor="#0B0A0A"
+        android:textSize="18sp"
+        android:textStyle="bold"></TextView>
+
+    <ListView
+        android:id="@+id/ListPairedDevices"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#CBD37E"
+        android:cacheColorHint="#100F0F" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="#FF9800"
+        android:text="@string/available_devices"
+        android:textColor="#090808"
+        android:textSize="18sp"
+        android:textStyle="bold"></TextView>
+
+    <ListView
+        android:id="@+id/ListAvailableDevices"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#81FFC107" />
+
+
+</LinearLayout>
